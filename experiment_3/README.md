@@ -10,7 +10,7 @@ s5069,AAAAAAGAATTCGATATCAGATCTACGCGTTAACCCGGGC
 s5070,AAAAAACAATTGAATCGATTCACAAAAAATAGG
 ```
 
-The CDS of that region we can safely assume will be present in the strain REG120, and will be our target for integration. Dr. Zeigler from the BGSC recommnends [at least 500bp of homology](https://www.researchgate.net/post/Can_Bacillus_subtilis_only_be_transformed_using_multimeric_DNA_molecules_can_you_also_digest_the_plasmid_without_religation) when doing transformations, so we will use that number as well. We don't want to have multiple resistance markers in our end strain, so we will delete a 150bp region of the ermC gene during recombination. This could potentially be repaired by environmental DNA, but this would cause the excision of our recombinant DNA, so we won't worry about repair of that resistance marker.
+The CDS of that region we can safely assume will be present in the strain REG120, and will be our target for integration. Dr. Zeigler from the BGSC recommnends [at least 500bp of homology](https://www.researchgate.net/post/Can_Bacillus_subtilis_only_be_transformed_using_multimeric_DNA_molecules_can_you_also_digest_the_plasmid_without_religation) when doing transformations, so we will use that number as well. We don't want to have multiple resistance markers in our end strain, so we will delete a 275bp region of the ermC gene during recombination. This could potentially be repaired by environmental DNA, but this would cause the excision of our recombinant DNA, so we won't worry about repair of that resistance marker. 275bp was deleted because some of the ermC gene had extremely low GC, which would cause problems with synthesis.
 
 
 ## AmpR flanks
@@ -38,7 +38,7 @@ Generally, we are going to be looking for two different constructs:
 
 The first will allow for completely antibiotic-free distribution of DNA. However, if while testing the system we find that the antibiotic-free methods are difficult for labs to handle, we will use the second construct, where plasmid integration will not remove the kanamycin resistance site. 
 
-Both constructs come out to 5272bp, which is larger than our Twist synthesis budget. In order to get around this limitation, we are synthesizing 3 different parts which recombine to create our two constructs:
+Both constructs come out to 5147bp, which is larger than our Twist synthesis budget. In order to get around this limitation, we are synthesizing 3 different parts which recombine to create our two constructs:
 
 1. prefix_1 : `ermC_1 - bla_1 - kanR`
 2. prefix_2 : `ermC_1 - kanR - bla_1`
