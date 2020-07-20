@@ -1,0 +1,12 @@
+sporenet4_ampR_1_for	ACACATGGAAACACACAAATTAAAAACTGGACCATGAGTGATAACACTGC
+sporenet4_ampR_1_rev	ggttccggtaataaaggcatttttcccTTACCAATGCTTAATCAGTGAGG
+sporenet4_ampR_2_for	agctgctagaagaaatcgaataaagcCATTCAAATATGTATCCGCTCATG
+sporenet4_ampR_2_rev	AAGCTGTCAAACATGAGAATTGACACCTTTATGGCAGCACTGCATAATTC
+sporenet4_manP_for  	AGGTGCCTCACTGATTAAGCATTGGTAAgggaaaaatgcctttattaccg
+sporenet4_manP_rev  	CTCATGAGCGGATACATATTTGAATGgctttattcgatttcttctagcag
+sporenet4_seq_1     	CATCAATCATACCACCAGTG                              
+sporenet4_seq_2     	gcttggaggggagaaaacac                              
+sporenet4_seq_3     	aaagagaaatggggaaagcg                              
+sporenet4_seq_4     	ctggatggatcagaagctaa                              
+sporenet4_vec_for   	AGTAAGAGAATTATGCAGTGCTGCCATAAAGGTGTCAATTCTCATGTTTG
+sporenet4_vec_rev   	TTGGCCGCAGTGTTATCACTCATGGTCCAGTTTTTAATTTGTGTGTTTCC
