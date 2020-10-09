@@ -1,0 +1,29 @@
+{
+	"version": "1.0.0",
+	"collection": "Plasmid distribution in spores and natural competence",
+	"collection_uuid": "f8f97a1d-4ca6-419c-be60-60eb83decfdd",
+	"batch": 1,
+	"lab": "Keoni Gandall",
+	"description": "Bacillus subtilis has the potential to be the DNA distribution chassis of the future. Spores containing plasmid DNA can be stored at room temperature for decades, can be shipped on paper, and have extremely low production costs, meaning mass distribution is truly possible. \n\nThis paper has the first iteration of a spore-based distribution method called Sporenet. In it, you will find 4 copies of 2 different Bacillus subtilis strains - Bacillus subtilis YB886(with plasmid pMK3) and Bacillus subtilis SCK6. \n\nEach strain can be recovered by hole-punching out the spore dot and growing overnight in LB with the required antibiotics. \n\nPlasmid pMK3 requires 10ug/ml kanamycin in LB for plasmid maintenace (about 1/5 of E.coli). After growing up, you can miniprep like you would E.coli and retransform into E.coli, where you can select with 100ug/ml ampicillin. You can then try transforming pMK3 into SCK6. \n\nStrain SCK6 optionally can be selected with 1ug/ml erythromycin. To transform, dilute an overnight shaking culture by 1/5 into LB with 1% xylose. Grow for 3 hours, add as much pMK3 DNA as possible, and incubate for ~1 hour before plating onto selective kanamycin media.",
+	"date": 1600118324,
+	"authors": ["Keoni Gandall"],
+	"samples": [
+		{
+			"name": "pMK3",
+			"addresses": ["A1","B1","C1","D1"],
+			"seqhashes": ["v1_DCD_bbd979fb3a0d9889c956fb4a8e95c6c9b1da2034fee05906ee9cbf8ec504d643", "v1_DCD_5fe3ed4fe97c0f0a4eff01aa4d189628ce559ebfe7af11e8f2529e9b0b35a5ff"],
+			"description": "A Bacillus subtilis spore (strain YB886, derived from 168) containing the Bacillus subtilis <-> Escherichia coli shuttle vector pMK3. Requires 10ug/ml kanamycin in media for plasmid maintenance in Bacillus subtilis. Requires 100ug/ml ampicillin in media for plasmid maintenance in Escherichia coli.",
+			"documentation": "data/pMK3",
+			"references": ["https://doi.org/10.1016/0378-1119(84)90161-6"]
+		},
+		{
+			"name": "SCK6",
+			"addresses": ["E1","F1","G1","H1"],
+			"seqhashes": [],
+			"description": "A Bacillus subtilis spore (strain SCK6). This strain induces competence in the presence of xylose, and can this can be used to transform Bacillus subtilis with minimal effort. Optionally can grow with 1ug/ml erythromycin, though this is not necessary since the genetic equipment to induce competence is integrated genomically.",
+			"documentation": "",
+			"references": ["https://doi.org/10.1111/j.1751-7915.2010.00230.x"]
+		}
+	]
+}
+
